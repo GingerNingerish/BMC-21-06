@@ -10,11 +10,10 @@
         android:id="@+id/relativeLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#9BC4E2"
-        android:padding="10dp"
-        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        >
+        android:layout_alignParentTop="true"
+        android:background="#9BC4E2"
+        android:padding="10dp">
 
         <TextView
             android:id="@+id/textView4"
@@ -42,13 +41,13 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView5"
             android:layout_marginStart="43dp"
             android:layout_marginTop="32dp"
             android:text="Description"
             android:textColor="#ffffff"
-            android:textSize="30sp"
-            android:layout_below="@+id/textView5"
-            android:layout_alignParentStart="true" />
+            android:textSize="30sp" />
 
         <Spinner
             android:id="@+id/edit_app_sp_staff"

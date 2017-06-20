@@ -35,10 +35,12 @@
             android:exported="false" />
 
         <activity android:name=".home.VisitorCheckInActivity" />
-        <activity android:name=".admin.EditStaffActivity" />
+        <activity android:name=".admin.EditStaffActivity"
+            android:label="Edit Staff"/>
         <activity android:name=".admin.EditAppointmentActivity"
             android:label="Appointment Administration"/>
-        <activity android:name=".admin.EditVisitorActivity"></activity>
+        <activity android:name=".admin.EditVisitorActivity"
+            android:label="Edit Visitor"></activity>
     </application>
 
 </manifest>

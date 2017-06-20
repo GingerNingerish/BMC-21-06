@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9BC4E2"
     android:orientation="vertical"
     tools:context="com.assignment.binlix26.case_study_bmc.home.VisitorCheckInActivity">
 
@@ -23,7 +24,9 @@
             android:layout_marginRight="20dp"
             android:ems="10"
             android:hint="Name"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="#ffffff"
+            android:textSize="28sp"/>
 
         <EditText
             android:id="@+id/sign_in_visitor_business"
@@ -34,29 +37,31 @@
             android:layout_marginRight="20dp"
             android:ems="10"
             android:hint="BusinessName"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="#ffffff"
+            android:textSize="28sp"/>
 
         <!--<EditText-->
-            <!--android:id="@+id/sign_in_visitor_staff"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginBottom="30dp"-->
-            <!--android:layout_marginLeft="20dp"-->
-            <!--android:layout_marginRight="20dp"-->
-            <!--android:ems="10"-->
-            <!--android:hint="Person meet with"-->
-            <!--android:inputType="textPersonName" />-->
+        <!--android:id="@+id/sign_in_visitor_staff"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Person meet with"-->
+        <!--android:inputType="textPersonName" />-->
 
         <!--<EditText-->
-            <!--android:id="@+id/sign_in_visitor_purpose"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginBottom="30dp"-->
-            <!--android:layout_marginLeft="20dp"-->
-            <!--android:layout_marginRight="20dp"-->
-            <!--android:ems="10"-->
-            <!--android:hint="Purpose"-->
-            <!--android:inputType="textPersonName" />-->
+        <!--android:id="@+id/sign_in_visitor_purpose"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Purpose"-->
+        <!--android:inputType="textPersonName" />-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -78,9 +83,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:spinnerMode="dropdown"/>
+                android:spinnerMode="dropdown" />
         </LinearLayout>
-
 
 
         <EditText
@@ -92,15 +96,16 @@
             android:layout_marginRight="20dp"
             android:ems="12"
             android:hint="Phone"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="#ffffff"
+            android:textSize="28sp"/>
 
     </LinearLayout>
 
     <Button
         android:id="@+id/sign_in_visitor_bt"
+        style="@style/ButtonDesign"
         android:layout_gravity="center"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
         android:text="Sign In" />
 
 </LinearLayout>

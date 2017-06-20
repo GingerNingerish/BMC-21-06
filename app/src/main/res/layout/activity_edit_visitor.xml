@@ -3,50 +3,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.assignment.binlix26.case_study_bmc.admin.EditVisitorActivity"
+    android:background="#9BC4E2"
     android:descendantFocusability="beforeDescendants"
-    android:focusableInTouchMode="true">
+    android:focusableInTouchMode="true"
+    tools:context="com.assignment.binlix26.case_study_bmc.admin.EditVisitorActivity">
 
 
     <EditText
         android:id="@+id/edit_visitor_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edit_visitor_bt_add"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@+id/edit_visitor_bt_add"
         android:layout_marginTop="90dp"
         android:ems="10"
+        android:hint="Name"
         android:inputType="textPersonName"
-        android:hint="Name" />
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
 
     <EditText
         android:id="@+id/edit_visitor_business"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/edit_visitor_name"
+        android:layout_alignStart="@+id/edit_visitor_name"
         android:layout_below="@+id/edit_visitor_name"
         android:layout_marginTop="90dp"
         android:ems="10"
+        android:hint="Business"
         android:inputType="textPersonName"
-        android:hint="Business" />
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
 
     <EditText
         android:id="@+id/edit_visitor_phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edit_visitor_business"
         android:layout_alignStart="@+id/edit_visitor_business"
         android:layout_below="@+id/edit_visitor_business"
         android:layout_marginTop="90dp"
         android:ems="12"
+        android:hint="Phone"
         android:inputType="phone"
-        android:hint="Phone" />
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
 
     <Button
         android:id="@+id/edit_visitor_bt_add"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        style="@style/ButtonDesign"
+        android:layout_above="@+id/button"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="28dp"
         android:text="Add" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/ButtonDesign"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/edit_visitor_bt_add"
+        android:layout_marginBottom="69dp"
+        android:text="Button" />
 </RelativeLayout>

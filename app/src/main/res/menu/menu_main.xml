@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.assignment.binlix26.case_study_bmc.MainActivity">
+    <item
+        android:id="@+id/new_visitor"
+        android:orderInCategory="100"
+        android:title="Add Visitor"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/new_staff"
+        android:orderInCategory="100"
+        android:title="Add Staff"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/new_app"
+        android:orderInCategory="100"
+        android:title="Add Appointment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/log_out"
+        android:orderInCategory="100"
+        android:title="Log Out"
+        app:showAsAction="never"/>
+</menu>

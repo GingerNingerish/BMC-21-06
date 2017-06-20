@@ -108,4 +108,9 @@
         android:layout_gravity="center"
         android:text="Sign In" />
 
+    <Button
+        android:id="@+id/backButton"
+        style="@style/ButtonDesign"
+        android:text="Back" />
+
 </LinearLayout>

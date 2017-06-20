@@ -95,7 +95,8 @@
         style="@style/ButtonDesign"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/edit_staff_bt_update"
-        android:layout_marginBottom="69dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="finish()"
         android:text="Back" />
 
 </RelativeLayout>

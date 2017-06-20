@@ -34,7 +34,8 @@
             android:authorities="com.casestudy.bmc.dataprovider"
             android:exported="false" />
 
-        <activity android:name=".home.VisitorCheckInActivity" />
+        <activity android:name=".home.VisitorCheckInActivity"
+            android:label="Visitor Check in"/>
         <activity android:name=".admin.EditStaffActivity"
             android:label="Edit Staff"/>
         <activity android:name=".admin.EditAppointmentActivity"

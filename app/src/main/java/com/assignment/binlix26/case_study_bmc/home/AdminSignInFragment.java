@@ -58,7 +58,7 @@ public class AdminSignInFragment extends Fragment {
         } else {
             new AlertDialog.Builder(getContext())
                     .setTitle("ERROR")
-                    .setMessage("Incorrect password, input again")
+                    .setMessage("Incorrect password, please try again")
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setPositiveButton(android.R.string.yes, null)
                     .show();

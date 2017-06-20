@@ -119,7 +119,7 @@ public class VisitorSigningFragment extends Fragment implements LoaderManager.Lo
         } else {
             new AlertDialog.Builder(getContext())
                     .setTitle("Sign Up Confirmation")
-                    .setMessage("Your Number does not exist, Do you want to Sign Up?")
+                    .setMessage("Your Number does not exist, do you want to Sign Up?")
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 

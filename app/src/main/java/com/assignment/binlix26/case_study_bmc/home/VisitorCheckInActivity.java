@@ -43,6 +43,18 @@ public class VisitorCheckInActivity extends AppCompatActivity {
         etBusiness = (EditText) findViewById(R.id.sign_in_visitor_business);
         etPhone = (EditText) findViewById(R.id.sign_in_visitor_phone);
         btSign = (Button) findViewById(R.id.sign_in_visitor_bt);
+        Button backButton = (Button) findViewById(R.id.backButton);
+
+        //Button to return
+        backButton.setOnClickListener(
+                new View.OnClickListener(){
+                    public void onClick(View v){
+                        backToPrevious();
+                    }
+                }
+        );
+
+
 
         // set up the drop down for purpose
         spPurpose = (Spinner) findViewById(R.id.sign_in_purpose_spi);
@@ -193,5 +205,9 @@ public class VisitorCheckInActivity extends AppCompatActivity {
         else
             homePage = new Intent(VisitorCheckInActivity.this, AdminActivity.class);
         startActivity(homePage);
+    }
+
+    public void backToPrevious() {
+        finish();
     }
 }
